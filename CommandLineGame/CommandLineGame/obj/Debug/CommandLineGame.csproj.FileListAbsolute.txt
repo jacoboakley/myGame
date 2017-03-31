@@ -1,0 +1,6 @@
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\bin\Debug\CommandLineGame.exe.config
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\bin\Debug\CommandLineGame.exe
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\bin\Debug\CommandLineGame.pdb
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\obj\Debug\CommandLineGame.exe
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\obj\Debug\CommandLineGame.pdb
+Z:\Dev Tools\Work\Exercises\CSharp\myGame\CommandLineGame\CommandLineGame\obj\Debug\CommandLineGame.csprojResolveAssemblyReference.cache
