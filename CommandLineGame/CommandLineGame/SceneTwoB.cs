@@ -12,6 +12,9 @@ namespace Game
         "\nAs you begin to turn around you feel a hand touch your shoulder and someone yells BOO!!!!" +
         "\nYou jump high in the air and let out a holler. Your friend jets out of the woods to see what happens and begins to burst into laughter. It is then that you realize the two ladies behind you laughing along with him. Your girlfiends decided to come out and surprise you with smores."
       );
+
+      Console.WriteLine("\nThe End. Press any key to close window.");
+      Console.ReadKey();
     }
   }
 }

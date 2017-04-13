@@ -13,6 +13,9 @@ namespace Game
         "light on them an they both let out a little scream. You laugh and take them to the " +
         "campsite where your friend is waiting and you all eat smores and relax under the stars."
       );
+
+      Console.WriteLine("\nThe End. Press any key to close window.");
+      Console.ReadKey();
     }
   }
 }
