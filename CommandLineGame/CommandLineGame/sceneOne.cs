@@ -7,7 +7,7 @@ namespace Game
     public SceneOne()
     {
       Console.WriteLine(
-        "\nYou and a friend are are sitting around a camp fire after spending all day on the river fishing. Suddenly a loud screeching scream echos from within the trees. You and your friend turn toward each other with a terrfied and bewildered look on your faces."
+        "\nYou and a friend are are sitting around a camp fire after spending all day on the river fishing. Suddenly a loud scream echos from within the trees. You and your friend turn toward each other with a terrfied and bewildered look on your faces."
       );
 
       Console.WriteLine("\nFriend: 'One of us should check that out.'");

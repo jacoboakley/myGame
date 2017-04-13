@@ -22,17 +22,12 @@ namespace Game
         if (choice.ToLower() == "y" || choice.ToLower() == "yes")
         {
           Console.WriteLine("Very Well");
-
         }
         else
         {
           Console.WriteLine("Goodbye");
+          Environment.Exit(0);
         }
-      }
-
-      else
-      {
-        Console.WriteLine("You May Play.");
       }
     }
   }
