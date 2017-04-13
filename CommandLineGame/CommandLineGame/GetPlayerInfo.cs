@@ -1,34 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CommandLineGame
+namespace Game
 {
-  class GetPlayerInfo
+  public class GetPlayerInfo
   {
     public GetPlayerInfo()
     {
-      Console.Write("Name:\t");
+      Console.Write("Name: ");
       string name = Console.ReadLine();
+      Console.WriteLine("Hello " + name + "!");
 
-      Console.Write("Age:\t");
+      Console.Write("\nAge: ");
       int age = Convert.ToInt32(Console.ReadLine());
 
       if (age < 12)
       {
-        Console.WriteLine("\nThis game may contain content not suitable for individuals under the age of 12. Continue at your own risk \n\nDo you wish to continue(Y or N):");
+        Console.WriteLine("\nThis game may contain content not suitable for individuals under the age of 12...Continue at your own risk.");
+        Console.Write("Do you wish to continue(Y or N): ");
         string choice = Console.ReadLine();
 
         if (choice.ToLower() == "y" || choice.ToLower() == "yes")
         {
-          Console.WriteLine("\nVery Well");
+          Console.WriteLine("Very Well");
+
         }
         else
         {
-          Console.WriteLine("\nGoodbye");
+          Console.WriteLine("Goodbye");
         }
+      }
+
+      else
+      {
+        Console.WriteLine("You May Play.");
       }
     }
   }
